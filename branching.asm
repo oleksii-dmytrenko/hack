@@ -1,20 +1,20 @@
 // Computes: if R0 > 0
-              R1=1
-             else
-              R1=0
+//              R1=1
+//           else
+//              R1=0
 @R0
 D=M
 
-@8
+@POSITIVE
 D;JGT
 
 @R1
 M=0
-@10
+@END
 0;JMP
 
-@R1
+(POSITIVE)
 M=1
 
-@10
+(END)
 0;JMP
