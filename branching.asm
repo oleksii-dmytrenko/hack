@@ -14,7 +14,9 @@ M=0
 0;JMP
 
 (POSITIVE)
+@R1
 M=1
 
 (END)
+@END
 0;JMP
